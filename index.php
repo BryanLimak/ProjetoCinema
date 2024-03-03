@@ -103,8 +103,8 @@
             </div>
             <div class="col-span-3 bg-[#353535] rounded-md p-7 text-[#B3B3B3]">
                 <h1 class="text-4xl ">Homem-Aranha: Sem Volta para Casa</h1>
-                <div class="w-[60%] bg-[#494848] mt-7 px-4 rounded-md h-[70px] grid grid-cols-5 items-center">
-                    <div class="font-bold text-xl">
+                <div class="w-[60%] bg-[#494848] mt-7 px-4 rounded-md h-[60px] grid grid-cols-5 items-center">
+                    <div class="font-bold text-md">
                         <div class="flex justify-center">DUBLADO</div>
                         <div class="flex justify-center">Sala 1</div>
                     </div>
@@ -121,8 +121,8 @@
                         <div class="border-[#B3B3B3] border rounded-md w-[90%] h-9 items-center flex justify-center">14:30</div> 
                     </div>
                 </div>
-                <div class="w-[60%] bg-[#494848] mt-3 px-4 rounded-md h-[70px] grid grid-cols-5 items-center">
-                    <div class="font-bold text-xl">
+                <div class="w-[60%] bg-[#494848] mt-3 px-4 rounded-md h-[60px] grid grid-cols-5 items-center">
+                    <div class="font-bold text-md">
                         <div class="flex justify-center">DUBLADO</div>
                         <div class="flex justify-center">Sala 1</div>
                     </div>
@@ -140,8 +140,8 @@
                     </div>
                     
                 </div>
-                <div class="w-[60%] bg-[#494848] mt-3 px-4 rounded-md h-[70px] grid grid-cols-5 items-center">
-                    <div class="font-bold text-xl">
+                <div class="w-[60%] bg-[#494848] mt-3 px-4 rounded-md h-[60px] grid grid-cols-5 items-center">
+                    <div class="font-bold text-md">
                         <div class="flex justify-center">DUBLADO</div>
                         <div class="flex justify-center">Sala 1</div>
                     </div>
