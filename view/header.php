@@ -1,4 +1,4 @@
-<header class="w-full bg-[#212121] h-[70px] flex">
+<header class="w-full bg-[#212121] h-[70px] flex opacity-0 ease-linear duration-500 " id="header">
     <div class="logo flex justify-start items-center w-1/2">
         <img src="/images/logo.png" class="ml-12 mr-10 h-[80%]"></img>
         <div >

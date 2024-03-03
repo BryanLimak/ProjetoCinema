@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/node_modules/flowbite/dist/flowbite.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Cinema</title>
 </head>
 
 <body class="bg-[#141414]">
-    <div class="w-[40%] h-[550px] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+    <div class="w-[40%] h-[550px] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2" id="section-select-unidade">
         <div class="m-auto w-[40%] h-[300px] mt-12 flex justify-center items-center">
         <img src="/images/logo.png" class="h-[100%] w-[100%]"></img>
         </div>
         <h1 class="text-center text-[30px] text-white my-5">Selecione o seu cinema preferido e aproveite:</h1>
-        <select id="countries" class="bg-[#1c1c1c] border border-white text-white text-xl rounded-lg block w-[50%] p-2.5 m-auto 
+        <select id="unidade" class="bg-[#1c1c1c] border border-white text-white text-xl rounded-lg block w-[50%] p-2.5 m-auto 
         mb-[30px]">
             <option selected>Choose a country</option>
             <option value="US">United States</option>
@@ -25,13 +26,13 @@
             <option value="DE">Germany</option>
         </select>
         <div class="flex justify-center text-white">
-        <button class="bg-[#8B0000] hover:bg-[#630000] w-[20%] h-11 rounded">
+        <button onclick="selecionarUnidade()" class="bg-[#8B0000] hover:bg-[#630000] px-5 h-11 rounded">
             Ver programação
         </button>
         </div>
     </div>
     <?php include('header.php') ?>
-    <section class="m-10 hidden">
+    <section class="m-10 hidden" id="section-main">
         <div class="carrousel ">
             <div id="indicators-carousel" class="relative w-full" data-carousel="static">
                 <!-- Carousel wrapper -->
@@ -177,5 +178,5 @@
         <div class="h-[1000px]"></div>
     </section>
 </body>
-
+<script src="../assets/javascript/script-index.js"></script>
 </html>
