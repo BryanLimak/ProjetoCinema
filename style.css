@@ -1,0 +1,31 @@
+.img-1{
+    background-image: url('/images/Banners/b1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-2{
+    background-image: url('/images/Banners/b2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-3{
+    background-image: url('/images/Banners/b3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-4{
+    background-image: url('/images/Banners/b4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerFilme1{
+    background-image: url('/images/bf1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
