@@ -11,20 +11,27 @@
 </head>
 
 <body class="bg-[#141414]">
-    <div class="w-[40%] h-[500px] bg-yellow-600 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 hidden">
-        <div class="m-auto w-1/3 bg-green-500 h-[30%] mt-20">
+    <div class="w-[40%] h-[550px] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+        <div class="m-auto w-[40%] h-[300px] mt-12 flex justify-center items-center">
+        <img src="/images/logo.png" class="h-[100%] w-[100%]"></img>
         </div>
-        <h1 class="text-center text-[30px] text-white mb-[15px]">Selecione o seu cinema preferido e aproveite:</h1>
-        <select id="countries" class="bg-[#1c1c1c] border border-white text-white text-sm rounded-lg block w-[40%] p-2.5">
+        <h1 class="text-center text-[30px] text-white my-5">Selecione o seu cinema preferido e aproveite:</h1>
+        <select id="countries" class="bg-[#1c1c1c] border border-white text-white text-xl rounded-lg block w-[50%] p-2.5 m-auto 
+        mb-[30px]">
             <option selected>Choose a country</option>
             <option value="US">United States</option>
             <option value="CA">Canada</option>
             <option value="FR">France</option>
             <option value="DE">Germany</option>
         </select>
+        <div class="flex justify-center text-white">
+        <button class="bg-[#8B0000] hover:bg-[#630000] w-[20%] h-11 rounded">
+            Ver programação
+        </button>
+        </div>
     </div>
     <?php include('header.php') ?>
-    <section class="m-10">
+    <section class="m-10 hidden">
         <div class="carrousel ">
             <div id="indicators-carousel" class="relative w-full" data-carousel="static">
                 <!-- Carousel wrapper -->
