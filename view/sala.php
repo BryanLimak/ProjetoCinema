@@ -105,7 +105,7 @@
             <button onclick="redirect('index')" class="bg-[#8B0000] hover:bg-[#630000] py-2 px-8 h-11 rounded">
                 VOLTAR
             </button>
-            <button class="bg-[#8B0000] hover:bg-[#630000] py-2 px-8 h-11 rounded">
+            <button onclick="redirect('pagamento')" class="bg-[#8B0000] hover:bg-[#630000] py-2 px-8 h-11 rounded">
                 AVANÇAR
             </button>
         </div>

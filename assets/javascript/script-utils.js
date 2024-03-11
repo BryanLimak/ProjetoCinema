@@ -33,3 +33,10 @@ function ajustarUnidadeHeader() {
     let unidadeParam = getUrlParameter('uni') ? getUrlParameter('uni'):  UNIDADE_SELECIONADA;
     $('#unidade-header').val(unidadeParam)
 }
+
+function animacao(classe) {
+    $('#header').removeClass('opacity-0')
+    setTimeout(() => {
+        $('#section-'+classe).fadeIn(500)
+    }, 700);
+}
